@@ -1,0 +1,6 @@
+print("9 digits randomized from 100")
+digitsRequired = 9
+for random in range(digitsRequired):
+    import random
+    random.randrange(100)
+    print(random.randrange(100))
